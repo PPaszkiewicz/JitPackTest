@@ -35,5 +35,8 @@ Android module properly available. Can also import specific submodules:
 ##### Release 0.5:
 'maven-publish' plugin in android library instead. Broken as release **0.1**.
 
-##### Release 0.6 - 0.7
+##### Release 0.6 - 0.8
 Build failed, check logs on jitpack.
+
+### Release 0.9
+'maven-publish' with invalid config. Can include but jar is empty.
