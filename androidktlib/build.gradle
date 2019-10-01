@@ -11,7 +11,7 @@ buildscript{
 
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        maven(MavenPublication) {
             groupId = 'com.github.PPaszkiewicz'
             artifactId = 'JitPackTest:androidktlib'
             // from components.java
