@@ -29,3 +29,13 @@ No changes (android module not available)
     implementation("com.github.PPaszkiewicz:JitPackTest:0.3")
     
 No changes (android module not available)
+
+### Release 0.4:
+Using 'com.github.dcendents.android-maven' plugin. 
+
+    implementation("com.github.PPaszkiewicz:JitPackTest:0.4")
+    
+Android module properly available. Can also import specific submodules:
+
+    implementation("com.github.PPaszkiewicz.JitPackTest:javaLib:0.4")
+    implementation("com.github.PPaszkiewicz.JitPackTest:androidktlib:0.4")
