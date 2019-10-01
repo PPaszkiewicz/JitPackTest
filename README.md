@@ -22,3 +22,10 @@ Allows usage of java module, android library no longer available.
     implementation("com.github.PPaszkiewicz:JitPackTest:0.2")
     
 No changes (android module not available)
+
+### Release 0.3:
+'maven' plugin on top. 
+
+    implementation("com.github.PPaszkiewicz:JitPackTest:0.3")
+    
+No changes (android module not available)
