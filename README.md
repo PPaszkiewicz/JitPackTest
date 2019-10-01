@@ -16,19 +16,11 @@ Allows usage of android library module (automatically picked up).
 
 Allows usage of java module, android library no longer available.
 
-### Release 0.2:
-'maven' plugin in both modules. 
+##### Release 0.2:
+'maven' plugin in both modules. No changes (android module not available).
 
-    implementation("com.github.PPaszkiewicz:JitPackTest:0.2")
-    
-No changes (android module not available)
-
-### Release 0.3:
-'maven' plugin on top. 
-
-    implementation("com.github.PPaszkiewicz:JitPackTest:0.3")
-    
-No changes (android module not available)
+##### Release 0.3:
+'maven' plugin on top. No changes (android module not available).
 
 ### Release 0.4:
 Using 'com.github.dcendents.android-maven' plugin. 
@@ -39,3 +31,9 @@ Android module properly available. Can also import specific submodules:
 
     implementation("com.github.PPaszkiewicz.JitPackTest:javaLib:0.4")
     implementation("com.github.PPaszkiewicz.JitPackTest:androidktlib:0.4")
+    
+##### Release 0.5:
+'maven-publish' plugin in android library instead. Broken as release **0.1**.
+
+##### Release 0.6 - 0.7
+Build failed, check logs on jitpack.

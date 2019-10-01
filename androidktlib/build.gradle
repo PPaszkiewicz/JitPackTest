@@ -9,6 +9,17 @@ buildscript{
     }
 }
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.PPaszkiewicz'
+            artifactId = 'JitPackTest:androidktlib'
+            // from components.java
+            // version = '0.0'
+        }
+    }
+}
+
 android {
     compileSdkVersion 28
     defaultConfig {

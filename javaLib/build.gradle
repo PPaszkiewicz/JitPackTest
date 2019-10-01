@@ -3,3 +3,14 @@ apply plugin: 'maven-publish'
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.PPaszkiewicz'
+            artifactId = 'JitPackTest:javaLib'
+            // from components.java
+            // version = '0.0'
+        }
+    }
+}
