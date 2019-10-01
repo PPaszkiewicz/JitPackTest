@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">androidKtLib</string>
+    <string name="kt_lib_hello">Hello from android kotlin lib</string>
+</resources>
