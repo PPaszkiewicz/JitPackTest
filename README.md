@@ -15,3 +15,10 @@ Allows usage of android library module (automatically picked up).
     implementation("com.github.PPaszkiewicz:JitPackTest:0.1")
 
 Allows usage of java module, android library no longer available.
+
+### Release 0.2:
+'maven' plugin in both modules. 
+
+    implementation("com.github.PPaszkiewicz:JitPackTest:0.2")
+    
+No changes (android module not available)
