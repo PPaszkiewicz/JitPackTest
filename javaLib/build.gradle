@@ -6,9 +6,9 @@ targetCompatibility = "7"
 
 publishing {
     publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.PPaszkiewicz'
-            artifactId = 'JitPackTest:javaLib'
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.PPaszkiewicz.JitPackTest'
+            artifactId = 'javaLib'
             // from components.java
             // version = '0.0'
         }
