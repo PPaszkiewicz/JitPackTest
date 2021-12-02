@@ -1,8 +1,9 @@
 package com.github.ppaszkiewicz.javalib;
 
+/** Contains hello function. */
 public class JavaLib {
     /**
-     * Hellow
+     * Hello
      * @return world
      */
     public static String getHello(){
