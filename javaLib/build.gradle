@@ -1,16 +1,17 @@
 apply plugin: 'java-library'
-apply plugin: 'maven-publish'
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'com.github.PPaszkiewicz.JitPackTest'
-            artifactId = 'javaLib'
-            // from components.java
-            // version = '0.0'
-        }
-    }
-}
+//afterEvaluate{
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//                groupId = 'com.github.PPaszkiewicz.JitPackTest'
+//                artifactId = 'androidjavaLib'
+//                version = '0.1'
+//            }
+//        }
+//    }
+//}

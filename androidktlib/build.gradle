@@ -7,15 +7,20 @@ buildscript{
     repositories {
         jcenter()
     }
+//    plugins {
+//        id 'maven-publish'
+//    }
 }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'com.github.PPaszkiewicz.JitPackTest'
-            artifactId = 'androidktlib'
-            // from components.java
-            // version = '0.0'
+afterEvaluate{
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.PPaszkiewicz.JitPackTest'
+                artifactId = 'androidktlib'
+                version = '1.0'
+            }
         }
     }
 }
@@ -24,7 +29,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 28
-        targetSdkVersion 28
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
