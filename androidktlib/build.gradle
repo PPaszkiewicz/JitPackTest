@@ -21,14 +21,20 @@ afterEvaluate{
                 artifactId = 'androidktlib'
                 version = '1.0'
             }
+//            debug(MavenPublication) {
+//                from components.debug
+//                groupId = 'com.github.PPaszkiewicz.JitPackTest'
+//                artifactId = 'androidktlib'
+//                version = '1.0'
+//            }
         }
     }
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 30
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

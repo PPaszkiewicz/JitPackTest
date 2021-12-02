@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/PPaszkiewicz/JitPackTest.svg)](https://jitpack.io/#PPaszkiewicz/JitPackTest)
+
 # Testing JitPack releases
 
 Notes of progress:

@@ -2,6 +2,9 @@ package com.github.ppaszkiewicz.androidktlib
 
 import android.content.Context
 
+/***
+ * Provides hello functionality.
+ */
 class AndroidKtLib {
     companion object{
         fun getHello(context: Context) : String{
