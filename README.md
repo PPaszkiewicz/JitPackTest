@@ -42,3 +42,6 @@ Build failed, check logs on jitpack.
 
 ### Release 0.9
 'maven-publish' with invalid config. Can include but jar is empty.
+
+### Release 2.0
+Finalized script in root `build.gradle` that publishes modules with their source included (to present docs).

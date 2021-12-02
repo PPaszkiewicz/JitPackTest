@@ -20,26 +20,3 @@ android {
         }
     }
 }
-
-afterEvaluate{
-    publishing {
-        task sourcesJar(type: Jar) {
-            classifier = 'sources'
-            from android.sourceSets.main.java.srcDirs
-        }
-        artifacts {
-            archives sourcesJar
-        }
-
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.PPaszkiewicz.JitPackTest'
-                //artifactId = 'javaLib'
-                version = '1.5'
-
-                artifact sourcesJar
-            }
-        }
-    }
-}
